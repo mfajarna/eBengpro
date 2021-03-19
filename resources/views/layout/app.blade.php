@@ -3,7 +3,7 @@
 <head>
     @include('includes.meta')
     
-    <title> @yield('title') | Home </title>
+    <title> @yield('title') | E-Bengpro </title>
 
     <link rel="apple-touch-icon" href="">
     <link rel="shortcut icon" href="image/x-icon">

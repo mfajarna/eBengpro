@@ -82,8 +82,18 @@ class HomeController extends Controller
         //
     }
 
-    public function home()
+    public function ta()
     {
-        return view('pages.home.index');
+        return view('pages.home.ta');
+    }
+
+    public function modul()
+    {
+        return view('pages.home.modul');
+    }
+
+    public function jurnal()
+    {
+        return view('pages.home.jurnal');
     }
 }

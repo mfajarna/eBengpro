@@ -22,4 +22,9 @@ use Illuminate\Support\Facades\Route;
 //     return view('dashboard');
 // })->name('dashboard');
 
+
+Route::get('modul', [HomeController::class, 'modul'])->name('home.modul');
+Route::get('jurnal', [HomeController::class, 'jurnal'])->name('home.jurnal');
+Route::get('ta', [HomeController::class, 'ta'])->name('home.ta');
+
 Route::resource('/', HomeController::class);

@@ -3,7 +3,7 @@
         
         <div style="font-family: 'Poppins', sans-serif">
             <div class="mx-auto flex flex-wrap flex-row items-center justify-between">
-                <a class="flex font-medium items-center" href="index.html">
+                <a class="flex font-medium items-center" href="{{ route('index') }}">
                     <img id="hero-header-2-3" src="/assets/img/logoBengpro 1.svg" alt="" />
                 </a>
 
@@ -28,10 +28,10 @@
                 
                 <div class="hidden lg:flex lg:items-center lg:w-auto w-full lg:ml-auto lg:mr-auto flex-wrap items-center text-base justify-center" id="menu-1-2">
                     <nav class="lg:space-x-12 space-x-0 lg:flex items-center justify-between text-base pt-8 lg:pt-0 lg:space-y-0 space-y-6">
-                        <a class="block cursor-pointer nav-1-2" href="#">Home</a>
-                        <a class="block cursor-pointer nav-1-2" href="modul.html">Modul</a>
-                        <a class="block cursor-pointer nav-1-2" href="ta.html">TA</a>
-                        <a class="block cursor-pointer nav-1-2" href="jurnal.html">Jurnal</a>
+                        <a class="block cursor-pointer nav-1-2" href="{{ route('index')}}">Home</a>
+                        <a class="block cursor-pointer nav-1-2" href="{{ route('home.modul') }}">Modul</a>
+                        <a class="block cursor-pointer nav-1-2" href="{{ route('home.ta') }}">TA</a>
+                        <a class="block cursor-pointer nav-1-2" href="{{ route('home.jurnal') }}">Jurnal</a>
                     </nav>
                 </div>
                 
